@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get install -y python-software-properties
 RUN add-apt-repository -y ppa:rethinkdb/ppa
 RUN apt-get update 
-apt-get -y upgrade
+RUN apt-get -y upgrade
 
 RUN apt-get -y install rethinkdb
 
