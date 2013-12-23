@@ -9,5 +9,5 @@ Building image:
 
 Running:
 
-    docker run -p 8080:8080 -p 9200:9200 elasticsearch
+    docker run -p 9300:9300 -p 9200:9200 elasticsearch
 
