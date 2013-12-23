@@ -5,9 +5,9 @@ Use with Docker http://www.docker.io
 
 Building image:
 
-    docker build -t rethinkdb .
+    docker build -t elasticsearch .
 
 Running:
 
-    docker run -p 8080:8080 -p 28015:28015 -p 29015:29015 rethinkdb
+    docker run -p 8080:8080 -p 9200:9200 elasticsearch
 
